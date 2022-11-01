@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract YourContract is Ownable {
 
   struct Investment {
-  mapping (address => uint256) equityBalance;
+  // mapping (address => uint256) equityBalance;
   string ticker;
   uint8 holders;
   uint256 lastPrice;
